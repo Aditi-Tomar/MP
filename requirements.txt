@@ -63,3 +63,4 @@ zopfli
 pymysql
 whitenoise
 django-ckeditor
+drf-yasg
