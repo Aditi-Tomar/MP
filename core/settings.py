@@ -101,7 +101,8 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': config('DB_NAME', default='voter_management'),
+        #'NAME': config('DB_NAME', default='voter_management'),
+        'NAME': config('DB_NAME', default='testnew'),
         #'USER': config('DB_USER', default='voter_admin'),
         'USER': config('DB_USER', default='admin'),
         #'PASSWORD': config('DB_PASSWORD', default='Voter@1234'),
